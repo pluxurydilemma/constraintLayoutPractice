@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#130D0D"
+    android:backgroundTintMode="add"
+    android:foregroundTint="#000000"
+    android:paddingVertical="10dp"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:id="@+id/androidDesc3"
+               android:layout_width="184dp"
+               android:layout_height="42dp"
+               android:layout_marginStart="40dp"
+               android:layout_marginTop="40dp"
+               android:text="Front-end - это создание клиентской стороны сайта"
+               app:layout_constraintStart_toEndOf="@+id/javascriptText"
+               app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+           <TextView
+               android:id="@+id/pythonDesc"
+               android:layout_width="186dp"
+               android:layout_height="59dp"
+               android:layout_marginStart="40dp"
+               android:layout_marginTop="40dp"
+               android:text="Pyton считается высокоуровневым языком программирования"
+               app:layout_constraintStart_toEndOf="@+id/pythonText"
+               app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+           <ImageView
+               android:id="@+id/imageView10"
+               android:layout_width="349dp"
+               android:layout_height="175dp"
+               android:layout_marginHorizontal="30dp"
+               android:layout_marginVertical="20dp"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintVertical_bias="0.0"
+               app:srcCompat="@drawable/grad" />
+
+           <TextView
+               android:id="@+id/textView6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="12dp"
+               android:text="Abdulkadyr Musa uulu"
+               app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+               app:layout_constraintStart_toStartOf="@+id/imageView10"
+               app:layout_constraintTop_toBottomOf="@+id/textView5"
+               app:layout_constraintVertical_bias="0.263" />
+
+           <TextView
+               android:id="@+id/textView5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="12dp"
+               android:text="Urmat Sagymbaev"
+               app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+               app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="234dp"
+               android:layout_height="43dp"
+               android:fontFamily="@font/montserrat"
+               android:text="IT Academy Courses"
+               android:textColor="#FFFFFF"
+               android:textSize="23sp"
+               android:textStyle="bold"
+               android:typeface="monospace"
+               app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+               app:layout_constraintEnd_toEndOf="@+id/imageView10"
+               app:layout_constraintHorizontal_bias="0.761"
+               app:layout_constraintStart_toStartOf="@+id/imageView10"
+               app:layout_constraintTop_toTopOf="@+id/imageView10"
+               app:layout_constraintVertical_bias="0.168" />
+
+           <TextView
+               android:id="@+id/textView4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Timur Amanov"
+               app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
+               app:layout_constraintEnd_toStartOf="@+id/textView7"
+               app:layout_constraintHorizontal_bias="0.571"
+               app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+           <TextView
+               android:id="@+id/textView7"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="28dp"
+               android:text="Edzen Oichiev"
+               app:layout_constraintEnd_toEndOf="@+id/imageView10"
+               app:layout_constraintHorizontal_bias="0.934"
+               app:layout_constraintStart_toEndOf="@+id/textView5"
+               app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+           <androidx.constraintlayout.widget.Guideline
+               android:id="@+id/guideline9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               app:layout_constraintGuide_percent="0.31" />
+
+           <ImageView
+               android:id="@+id/android"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_marginLeft="40dp"
+               android:layout_marginTop="35dp"
+               app:layout_constraintBottom_toTopOf="@+id/androidText"
+               app:layout_constraintDimensionRatio="h,1:1"
+               app:layout_constraintEnd_toStartOf="@+id/guideline10"
+               app:layout_constraintHorizontal_bias="0.0"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/imageView10"
+               app:layout_constraintVertical_bias="0.0"
+               app:srcCompat="@drawable/android" />
+
+           <androidx.constraintlayout.widget.Guideline
+               android:id="@+id/guideline10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               app:layout_constraintGuide_percent="0.5" />
+
+           <androidx.constraintlayout.widget.Guideline
+               android:id="@+id/guideline11"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               app:layout_constraintGuide_percent="0.54" />
+
+           <androidx.constraintlayout.widget.Guideline
+               android:id="@+id/guideline12"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               app:layout_constraintGuide_percent="0.79" />
+
+           <ImageView
+               android:id="@+id/python"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_marginStart="40dp"
+               android:layout_marginTop="35dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/button3"
+               app:srcCompat="@drawable/python" />
+
+           <ImageView
+               android:id="@+id/javaScript"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_marginLeft="40dp"
+               android:layout_marginTop="35dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/button4"
+               app:srcCompat="@drawable/javascript" />
+
+           <TextView
+               android:id="@+id/androidText"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Android Разработка"
+               app:layout_constraintEnd_toEndOf="@+id/android"
+               app:layout_constraintStart_toStartOf="@+id/android"
+               app:layout_constraintTop_toBottomOf="@+id/android" />
+
+           <TextView
+               android:id="@+id/pythonText"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Back-end Разработка"
+               app:layout_constraintEnd_toEndOf="@+id/python"
+               app:layout_constraintStart_toStartOf="@+id/python"
+               app:layout_constraintTop_toBottomOf="@+id/python" />
+
+           <TextView
+               android:id="@+id/javascriptText"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Front-end Разработка"
+               app:layout_constraintEnd_toEndOf="@+id/javaScript"
+               app:layout_constraintStart_toStartOf="@+id/javaScript"
+               app:layout_constraintTop_toBottomOf="@+id/javaScript" />
+
+           <TextView
+               android:id="@+id/androidDesc"
+               android:layout_width="186dp"
+               android:layout_height="59dp"
+               android:layout_marginTop="40dp"
+               android:layout_marginLeft="40dp"
+               android:text="Android разработка - это создание приложений для
+        портативных устройств"
+               app:layout_constraintStart_toEndOf="@+id/androidText"
+               app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+           <Button
+               android:id="@+id/button3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Button"
+               app:layout_constraintBaseline_toBaselineOf="@+id/androidText"
+               app:layout_constraintEnd_toEndOf="@+id/androidDesc"
+               app:layout_constraintStart_toStartOf="@+id/androidDesc" />
+
+           <Button
+               android:id="@+id/button4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Button"
+               app:layout_constraintBaseline_toBaselineOf="@+id/pythonText"
+               app:layout_constraintEnd_toEndOf="@+id/pythonDesc"
+               app:layout_constraintStart_toStartOf="@+id/pythonDesc" />
+
+           <Button
+               android:id="@+id/button5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Button"
+               app:layout_constraintBaseline_toBaselineOf="@+id/javascriptText"
+               app:layout_constraintEnd_toEndOf="@+id/androidDesc3"
+               app:layout_constraintStart_toStartOf="@+id/androidDesc3" />
+
+
+       </androidx.constraintlayout.widget.ConstraintLayout>
+   </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
